@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HungrX</title>
+    <link rel="stylesheet" href="./styles/globals.css">
+    <link rel="stylesheet" href="./styles/styleguide.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="home"><a href="#home-section">HOME</a></li>
+          <li class="about-us"><a href="#about us-section">ABOUT US</a></li>
+          <li class="features"><a href="#features-section">FEATURES</a></li>
+          <li class="frame"><div class="contact"><a href="#contact-section">CONTACT</a></div></li>
+          <li class="download-wrapper"><div class="download"><a href="#download-section">DOWNLOAD</a></div></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="desktop">
+      <!-- Home Section -->
+      <section id="home-section" class="div">
+        <div class="overlap-group">
+          <!-- Background Elements -->
+          <div class="element-uhd"></div>
+          <div class="rectangle" id="about us-section"></div>
+          <div class="rectangle-2"></div>
+
+          <!-- Heading Section -->
+          <h1 class="indulge-in-FLAVOUR">
+            <span class="text-wrapper">Indulge in FLAVOUR,</span>
+            <span class="span"> Not GUILT!</span>
+          </h1>
+
+          <!-- Video Section -->
+          <video width="100%" height="auto" autoplay muted loop>
+            <source src="./media/3120243-uhd_3840_2160_25fps.mp4" type="video/mp4">
+          </video>
+
+          <!-- Content Section -->
+          <article>
+            <h2 class="our-story">
+              <span class="text-wrapper-2">OUR </span>
+              <span class="text-wrapper-3">STORY</span>
+            </h2>
+            <p class="introduction-vision">
+              <span class="text-wrapper-2">INTRODUCTION</span>
+              <span class="text-wrapper-3">&amp; VISION</span>
+            </p>
+            <p class="message-from-founder">
+              <span class="text-wrapper-2">MESSAGE FROM<br></span>
+              <span class="text-wrapper-3">FOUNDER</span>
+            </p>
+          </article>
+
+          <!-- Quote Section -->
+          <blockquote class="indulge-in-flavor">
+            <p>
+              &#34;Indulge in flavor, not guilt. At HungrX, we believe in a world where food is freedom—not a restriction...
+              Your cravings, perfectly balanced.&#34;
+            </p>
+          </blockquote>
+
+          <!-- Founder Story Section -->
+          <section class="at-the-heart-of-parent">
+            <p class="at-the-heart-of">
+              At the heart of HungrX is a story of real transformation...
+              Join HungrX, and let’s walk this path together—one meal, one victory at a time.
+            </p>
+          </section>
+
+          <!-- Additional Content -->
+          <section>
+            <p class="p">
+              Effortlessly discover your next meal with just a tap...
+            </p>
+            <p class="as-an-MBBS-graduate">
+              &#34;As an MBBS graduate who’s been through my own transformation... Let’s redefine wellness, without guilt or compromise.&#34;
+            </p>
+          </section>
+
+          <!-- Founder Info -->
+          <footer>
+            <p class="text-wrapper-4">Febbin Chacko</p>
+            <p class="text-wrapper-5">Founder of HungrX</p>
+          </footer>
+
+          <!-- Images -->
+          <img class="image" src="https://c.animaapp.com/D69QZtuL/img/-.svg" alt="Image Placeholder">
+          <img class="line" src="https://c.animaapp.com/D69QZtuL/img/line-1.svg" alt="Line">
+          <img class="img" src="https://c.animaapp.com/D69QZtuL/img/line-2.svg" alt="Line">
+          <img class="vector" src="https://c.animaapp.com/D69QZtuL/img/vector.svg" alt="Vector">
+          <img class="line-2" src="https://c.animaapp.com/D69QZtuL/img/line-3.svg" alt="Line">
+
+          <!-- Toggle Section -->
+          <div class="frame-3">
+            <div class="group-3">
+              <img id="toggleImage" class="element-image" src="./media/1st image.png" alt="Image to Toggle">
+            </div>
+            <button class="toggle-button" id="toggleButton" onclick="changeImage()">
+              <div class="circle"></div>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section id="features-section" class="overlap">
+        <div class="rectangle-3"></div>
+        <h2 class="features-2">FEATURES</h2>
+
+        <!-- Download Section -->
+        <section id="download-section" class="text-wrapper-6">
+          <h1>Download hungrX</h1>
+          <div class="button-container">
+            <button class="button" id="app-store-button">
+              <img src="https://c.animaapp.com/D69QZtuL/img/group-9@2x.png" alt="App Store">
+            </button>
+            <button class="button" id="google-play-button">
+              <img src="https://c.animaapp.com/D69QZtuL/img/group-10@2x.png" alt="Google Play Store">
+            </button>
+          </div>
+          <div id="overlay"></div>
+          <div class="popup" id="popup">
+            <p>Unveiling Soon!</p>
+            <button id="close-popup">Close</button>
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact-section">
+          <p class="have-questions-reach">
+            <span class="text-wrapper-7">Have questions? </span>
+            <span class="text-wrapper-8">Reach us at:</span>
+          </p>
+          <div class="text-wrapper-9">Contact Us</div>
+          <address class="div-wrapper">
+            <a href="mailto:admin@hungrx.com?subject=Help%20Needed&body=Hi%20Team,%20I%20need%20assistance%20with.." class="email-link">
+              admin@hungrx.com
+            </a>
+          </address>
+          <p class="text-wrapper-11">&copy; 2024 hungrX LLC</p>
+          <p class="text-wrapper-12">
+            <a href="privacy-policy.html" target="_blank">Privacy Policy</a> |
+            <a href="terms-and-conditions.html" target="_blank">Terms of Service</a> |
+            <a href="cookie-policy.html" target="_blank">Cookie Policy</a>
+          </p>
+        </section>
+
+        <!-- Social Icons -->
+        <section class="group-6">
+          <a href="https://www.instagram.com/hungr__x/" target="_blank" class="social-icon">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://x.com/hungr_x" target="_blank" class="social-icon">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/hungrx/" target="_blank" class="social-icon">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="frames">
+          <div class="frame-4">
+            <h3 class="text-wrapper-13">Where can I find meals that actually fit my goals?</h3>
+            <p class="text-wrapper-14">
+              HungrX uses your geolocation to find nearby restaurants...
+            </p>
+          </div>
+          <div class="frame-5">
+            <h3 class="text-wrapper-15">How can I keep up with my plan, even on a busy day?</h3>
+            <p class="text-wrapper-16">
+              HungrX tracks both home-cooked and restaurant meals...
+            </p>
+          </div>
+          <div class="group-8">
+            <h3 class="text-wrapper-15">How can I stay motivated when my weight goals feel distant?</h3>
+            <p class="text-wrapper-16">
+              HungrX’s Gamified Progress Journey turns your goal into an interactive experience...
+            </p>
+          </div>
+          <div class="frame-6">
+            <h3 class="text-wrapper-15">Is this meal helping me, or setting me back?</h3>
+            <p class="text-wrapper-16">
+              HungrX provides real-time calorie guidance...
+            </p>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
